@@ -1,3 +1,4 @@
+import CardWidget from "./CardWidget";
 function Navbar (){
     return <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
@@ -19,7 +20,9 @@ function Navbar (){
         <li class="nav-item">
             <a class="nav-link" href="contacto.html">Contacto</a>
         </li>
-        
+        <li class="carrito">
+            <CardWidget/>
+        </li>
         </ul>
         
     </div>
