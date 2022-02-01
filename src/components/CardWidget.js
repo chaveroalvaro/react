@@ -1,7 +1,7 @@
 import React from 'react';
-
+import {HiShoppingCart} from 'react-icons/hi'
 const CardWidget = () => {
-return <img src='/imagenes/carrito.jpg' alt='cart-icon'/>;
+return <HiShoppingCart/>;
 
 };
 

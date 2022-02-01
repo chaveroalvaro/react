@@ -24,9 +24,9 @@ function App() {
         <Navbar/>
       
       </header>
-      
+      <ItemListContainer/>
     </div>
-    <ItemListContainer/>
+    
   );
 }
 

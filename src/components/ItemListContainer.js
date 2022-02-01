@@ -1,5 +1,3 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'reactstrap';
 import { Card } from 'reactstrap';
 import { CardGroup } from 'reactstrap';
@@ -9,10 +7,15 @@ import { CardTitle } from 'reactstrap';
 import { CardSubtitle } from 'reactstrap';
 import { CardText } from 'reactstrap';
 
-function ItemListContainer(){
-<CardGroup>
+
+
+import React from 'react';
+
+const ItemListContainer = () => {
+return <div>
+    <CardGroup>
 <Card>
-    <CardImg alt="Card image cap" src="'/imagenes/buzo.jpg'"
+    <CardImg alt="Card image cap" src='/imagenes/buzo.jpg'
     top
     width="100%" 
 />
@@ -37,7 +40,7 @@ function ItemListContainer(){
 <Card>
     <CardImg
     alt="Card image cap"
-    src="'/imagenes/maya.jpg'"
+    src='/imagenes/maya.jpg'
     top
     width="100%"
     />
@@ -62,7 +65,7 @@ function ItemListContainer(){
 <Card>
     <CardImg
     alt="Card image cap"
-    src="'/imagenes/pulover.jpg'"
+    src='/imagenes/pulover.jpg'
     top
     width="100%"
     />
@@ -85,5 +88,12 @@ function ItemListContainer(){
     </CardBody>
 </Card>
 </CardGroup>
-}
+</div>;
+};
+
 export default ItemListContainer;
+
+
+
+
+
